@@ -1,1 +1,2 @@
-# HC-05-Message-Communication
+# HC05-Message-Communication
+Get user input via keyboard using UART0 interrupt. Once the software captures an character it store it into a buffer. Once the interrupt detects an carriage return it display full message and then sends it to server via bluetooth. UART0 is set at 9600 baud rate with 1 stop bit no parity. The system is running at 3Mhz. Note: Make sure the bluetooth modules are set paired and Communication Mode. To setup HC05 bluetooth modules with MSP432P401R https://github.com/jminjares4/HC05-Bluetooth-Setup
